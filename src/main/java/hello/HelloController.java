@@ -9,5 +9,6 @@ public class HelloController {
     public String index() {
         System.out.println("hello user");
         return "Greetings from Spring Boot!"; // test will match the return string
+        
     }
 }
