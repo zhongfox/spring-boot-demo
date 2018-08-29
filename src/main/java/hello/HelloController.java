@@ -5,10 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class HelloController {
-
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot!";
+        System.out.println("hello user");
+        return "Greetings from Spring Boot!"; // test will match the return string
+        
+        
+        
+        
+        
     }
-
 }
