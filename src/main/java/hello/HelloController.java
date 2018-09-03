@@ -8,7 +8,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         System.out.println("hello user");
-        return "Hello from Spring Boot!"; // test will match the return string
+        return "Hello  from Spring Boot!"; // test will match the return string
 
     }
 }
