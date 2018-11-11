@@ -8,6 +8,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         System.out.println("hello user");
-        return "Greetings from Spring Boot! (cache version)"; // test will match the return string
+         // unit test will check: the return string must contains "Spring Boot"
+        return "<body style='background-color:green;' ><h1>Hi Spring Boot!<h1></body>";
     }
 }
