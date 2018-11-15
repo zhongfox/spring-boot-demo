@@ -10,6 +10,7 @@ public class HelloController {
         System.out.println("hello tencenthub user");
         
          // unit test will check: the return string must contains "Spring Boot"
+        
         return "<body style='background-color:green;' ><h1>Hi Spring Boot!<h1></body>";
     }
 }
