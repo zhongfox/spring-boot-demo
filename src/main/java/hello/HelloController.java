@@ -11,6 +11,6 @@ public class HelloController {
         
          // unit test will check: the return string must contains "Spring Boot"
         
-        return "<body style='background-color:red;' ><h1>Hi Spring Boot!...<h1></body>";
+        return "<body style='background-color:blue;' ><h1>Hi Spring Boot!...<h1></body>";
     }
 }
